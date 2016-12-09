@@ -1,0 +1,35 @@
+# Base read file. This file will call any sprite sheets needed, 
+# load them, and allow us to create animations from specified
+# frames
+
+
+
+
+# all items following this are in this file.
+@file spritesheet.png
+
+# This makes a texture symbol that is 100x100 at 0,0  TLC.
+THEENDTEXTURE 3 10 10 100 100
+GHOST 3 852 682 31 36
+
+
+# Type		- The type of image, this can be the following:
+#			0 - Looping
+#			1 - Rocking
+#			2 - Single loop
+#           3 - Texture
+#           4 - Surface
+
+
+
+# ALL LINES MUST BE IN THE FOLLOWING FORMAT:
+# symbol			type	x y width height	{more x y width height's}
+#
+CANDYCORN-LOOP		0		916 646 32 36		948 646 32 36		980 646 32 36		1012 646 32 36
+SMILEYFACE-ROCK		1		1076 580 32 30		1110 576 28 34		1144 574 24 36
+ROCKCROC-ROCK		1		884  538 32 36   	918 538 32 36       948 538 32 36
+
+
+# allows multiple files.
+# @otherfile.ext
+

@@ -1,0 +1,63 @@
+# Base read file. This file will call any sprite sheets needed, 
+# load them, and allow us to create animations from specified
+# frames
+
+
+
+
+# all items following this are in this file.
+#@spritesheet.png
+
+@spritesheet01.png
+
+
+
+# ALL LINES MUST BE IN THE FOLLOWING FORMAT:
+# symbol		ID	x y width height	{more x y width height's}
+#
+
+# Tile Types:		Top Left		Horizontal		Top Right		Vertical		Bottom Left		Bottom Right		Breakable		Floor
+CLOUDWORLDTILES		665 459 100 100		115 569 100 100		  5 569 100 100		555 569 100 100		555 459 100 100		445 459 100 100		225 459 100 100		  8  85 100 100 
+
+
+#RAINBOWFLOOR		11	  8  85 100 100
+
+#CLOUD-CORNERTL		20	665 459 100 100
+#CLOUD-HORZ	 	21	115 569 100 100
+#CLOUD-CORNERTR		22	  5 569 100 100
+#CLOUD-VERT		23	555 569 100 100
+
+#CLOUD-CORNERBL		24	555 459 100 100
+#CLOUD-CORNERBR		25	445 459 100 100
+
+#CLOUD-BOT		27	335 459 100 100
+#CLOUD-TOP		26	445 569 100 100
+#CLOUD-LEFT		28	225 569 100 100
+#CLOUD-RIGHT		29	335 569 100 100
+
+#CLOUD-BREAK		33	225 459 100 100	
+
+#CLOUD-MID
+
+
+# Level 1 Basic
+# This is the testing level we're making to start things off
+# All numbers are IDs that represent each tile to be placed
+#
+
+#0 1 1 1 2
+#3 7 7 7 3
+#3 7 6 7 3
+#3 7 7 7 3
+#4 1 1 1 5
+
+
+
+
+
+
+
+
+# allows multiple files.
+# @otherfile.ext
+

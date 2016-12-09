@@ -1,0 +1,2 @@
+# The asset files
+@animations.txt
