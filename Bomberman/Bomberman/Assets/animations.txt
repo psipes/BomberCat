@@ -1,6 +1,6 @@
 # Base read file. This file will call any sprite sheets needed, 
 # load them, and allow us to create animations from specified
-# frames
+# frames.
 
 
 
